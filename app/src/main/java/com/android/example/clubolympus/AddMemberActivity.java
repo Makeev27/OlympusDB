@@ -12,6 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.android.example.clubolympus.data.ClubOlympusContract;
 import com.android.example.clubolympus.data.ClubOlympusContract.MemberEntry;
 
 

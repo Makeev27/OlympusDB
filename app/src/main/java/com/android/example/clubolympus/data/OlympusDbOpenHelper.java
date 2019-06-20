@@ -7,7 +7,7 @@ import com.android.example.clubolympus.data.ClubOlympusContract.MemberEntry;
 
 public class OlympusDbOpenHelper extends SQLiteOpenHelper {
     public OlympusDbOpenHelper(Context context) {
-        super(context, MemberEntry.DATABASE_NAME, null , MemberEntry.DATABASE_VERSION);
+        super(context, ClubOlympusContract.DATABASE_NAME, null , ClubOlympusContract.DATABASE_VERSION);
     }
 
     @Override
